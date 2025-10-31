@@ -1,6 +1,6 @@
 services:
   app:
-    image: josemanuel343/php-app:1.0
+    image: josemanuel343/php-app:1.1
     restart: unless-stopped
     ports:
       - "${HOST_PORT:-8081}:80"
