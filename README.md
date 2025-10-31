@@ -32,7 +32,7 @@ docker push usuario_dockerhub/php-app:1.0
 docker compose up -d
 ```
 
-4) Acceder a la aplicación en http://localhost:8080
+4) Acceder a la aplicación en http://localhost:8081
 
 Notas:
 - El servicio `db` monta `./db` en `/docker-entrypoint-initdb.d` para inicializar la base de datos la primera vez.
