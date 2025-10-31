@@ -19,6 +19,8 @@ Instrucciones rápidas
 
 1) Copia `.env.example` a `.env` y actualiza las credenciales (especialmente `DB_ROOT_PASSWORD`).
 
+Nota: Si no quieres crear un `.env`, el compose funcionará con valores por defecto (puerto 8081 y credenciales de prueba). Sin embargo es recomendable crear `.env` para cambiar contraseñas en entornos reales.
+
 2) Construir la imagen localmente y subir a Docker Hub (reemplaza `usuario_dockerhub`):
 
 ```bash
@@ -38,5 +40,4 @@ Notas:
 - El servicio `db` monta `./db` en `/docker-entrypoint-initdb.d` para inicializar la base de datos la primera vez.
 - El Dockerfile usa `php:8.2-apache` y habilita `pdo_mysql`.
 # JOSE-MANUEL-SANCHEZ---CRUD-BASICO-DOCKER2
-# JOSÉ-MANUEL-SÁNCHEZ---CRUD-BASICO-DOCKER2
-# JOSE-MANUEL-SANCHEZ---CRUD-BASICO-DOCKER2
+
