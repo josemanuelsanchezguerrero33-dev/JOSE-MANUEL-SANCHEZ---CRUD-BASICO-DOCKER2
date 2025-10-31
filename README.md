@@ -38,3 +38,5 @@ Notas:
 - El servicio `db` monta `./db` en `/docker-entrypoint-initdb.d` para inicializar la base de datos la primera vez.
 - El Dockerfile usa `php:8.2-apache` y habilita `pdo_mysql`.
 # JOSE-MANUEL-SANCHEZ---CRUD-BASICO-DOCKER2
+# JOSÉ-MANUEL-SÁNCHEZ---CRUD-BASICO-DOCKER2
+# JOSE-MANUEL-SANCHEZ---CRUD-BASICO-DOCKER2
